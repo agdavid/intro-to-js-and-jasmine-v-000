@@ -1,19 +1,17 @@
 'use strict';
 
 function favIceCream(flavor) {
-  return "I love " + flavor;
-}
-
-function shouting(string) {
-  var string = string.toUpperCase();
-  return string;
-}
-
-var roundDown = function(number) {
-  var floored_number = Math.floor(number);
-  return floored_number;
+  return `I love ${flavor}`;
 };
 
-var theTruth = function() {
-  return true
+function shouting(string) {
+  return string.toUpperCase();
+};
+
+function roundDown(number) {
+  return Math.floor(number);
+};
+
+function theTruth() {
+  return true;
 };
